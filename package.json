@@ -1,15 +1,23 @@
 {
   "name": "backend-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "localdev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "socket.io": "^4.0.0"
-  }
+    "requester": "^0.1.22",
+    "socket.io": "^4.0.0",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
 }
